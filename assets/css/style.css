@@ -1,0 +1,40 @@
+main{
+    position: relative;
+    height: 85vh;
+}
+footer{
+    height: 5vh;
+}
+#winner{
+    text-align: center;
+    color: green;
+}
+div{
+    position: absolute;
+    width: 100px;
+    height: 40px;
+    background: none;
+}
+div:nth-of-type(2){
+    background: none;
+    left: 170px;
+    top: 10px;
+}
+div:nth-of-type(3){
+    background: none;
+    left: 120px;
+    top: 340px;
+}
+div:nth-of-type(4){
+    background: none;
+    left: 1320px;
+    top: 140px;
+}
+div:nth-of-type(5){
+    background: none;
+    left: 1120px;
+    top: 540px;
+}
+#run{
+    transform: translate(2px,2px);
+}
